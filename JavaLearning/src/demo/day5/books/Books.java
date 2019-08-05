@@ -1,0 +1,123 @@
+/**
+ * @author jgybzx
+ * @data 2019-7-30 上午8:33:57
+ * @version 版本号
+ * @TODO 描述
+ */
+package demo.day5.books;
+/*1.编写图书类：
+属性：编号，名称，单价，数量,  出版社,  作者
+定义方法：显示图书的信息（图书编号，名称，单价，数量)*/
+public class Books {
+	public Books(){}
+	private int no;
+	private String name;
+	private double price;
+	private int count;
+	private String publishingHouse;
+	private String author;
+	
+	public Books(int no,String name){
+		this.no=no;
+		this.name=name;
+	}
+	public Books(int no,String name,double price,int count,String publishingHouse,String author){
+		this(no,name);
+		this.price=price;
+		this.count=count;
+		this.publishingHouse=publishingHouse;
+		this.author=author;
+		
+	}
+	public void showInfo()
+	{
+		
+		System.out.println("图书编号:"+no+"\t名称:"+name+"\t单价:"+price+"\t数量:"+count);
+	}
+
+	//==============================================================================
+	
+	/**
+	 * @return the no
+	 */
+	public int getNo() {
+		return no;
+	}
+
+	/**
+	 * @param no the no to set
+	 */
+	public void setNo(int no) {
+		this.no = no;
+	}
+
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	/**
+	 * @return the price
+	 */
+	public double getPrice() {
+		
+		return price;
+	}
+
+	/**
+	 * @param price the price to set
+	 */
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	/**
+	 * @return the count
+	 */
+	public int getCount() {
+		return count;
+	}
+	/**
+	 * @param count the count to set
+	 */
+	public void setCount(int count) {
+		this.count = count;
+	}
+	/**
+	 * @return the publishingHouse
+	 */
+	public String getPublishingHouse() {
+		return publishingHouse;
+	}
+
+	/**
+	 * @param publishingHouse the publishingHouse to set
+	 */
+	public void setPublishingHouse(String publishingHouse) {
+		this.publishingHouse = publishingHouse;
+	}
+
+	/**
+	 * @return the author
+	 */
+	public String getAuthor() {
+		return author;
+	}
+
+	/**
+	 * @param author the author to set
+	 */
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	
+}

@@ -1,0 +1,16 @@
+/**
+ * @author jgybzx
+ * @data 2019-7-31 ÏÂÎç4:51:09
+ * @version °æ±¾ºÅ
+ * @TODO ÃèÊö
+ */
+package demo.day6.chouxianglei;
+
+/**
+ * @author Jgybz
+ *
+ */
+public abstract class Phone {
+	public abstract void call();
+	public abstract void message();
+}

@@ -1,0 +1,40 @@
+/**
+ * @author jgybzx
+ * @data 2019-7-30 上午11:18:02
+ * @version 版本号
+ * @TODO 描述
+ */
+package demo.day5.Extends;
+
+public class Dog extends Animals {
+	public Dog() {
+		System.out.println("执行Dog子类无参构造");
+	}
+
+	String kind;
+
+	public Dog(String name, int age, String color, String kind) {
+
+		this.name = name;
+		this.age = age;
+		this.color = color;
+
+		// super();// 不加参数代表调用无参构造
+		//super(name, age, color);
+		this.kind = kind;
+		System.out.println("执行Dog子类有参构造(四个参数)");
+	}
+
+	public Dog(String kind) {
+		this.kind = kind;
+		System.out.println("执行Dog子类有参构造(一个参数)");
+	}
+
+	public void show() {
+		System.out.println("狗\n" + "名字:" + super.name + "\t年龄:" + super.age
+				+ "\t颜色:" + color + "\t种类:" + kind);
+
+		super.speak();
+
+	}
+}

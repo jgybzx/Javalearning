@@ -1,0 +1,75 @@
+/**
+ * @author jgybzx
+ * @data 2019-7-29 ÏÂÎç3:23:07
+ * @version °æ±¾ºÅ
+ * @TODO ÃèÊö
+ */
+package demo.day4;
+
+public class Student {
+
+	public int age;
+	public String name;
+	public String address;
+	public int height;
+	public char sex;
+	
+	
+	/**
+	 * 
+	 */
+	public Student() {
+		super();
+	}
+
+
+	/**
+	 * @param age
+	 * @param name
+	 * @param address
+	 * @param height
+	 * @param sex
+	 */
+	public Student(int age, String name, String address, int height, char sex) {
+		super();
+		this.age = age;
+		this.name = name;
+		this.address = address;
+		this.height = height;
+		this.sex = sex;
+	}
+
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public char getSex() {
+		return sex;
+	}
+
+	public void setSex(char sex) {
+		this.sex = sex;
+	}
+
+}

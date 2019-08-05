@@ -1,0 +1,18 @@
+/**
+ * @author jgybzx
+ * @data 2019-7-30 上午11:05:18
+ * @version 版本号
+ * @TODO 描述
+ */
+package demo.day5.Extends;
+
+public class Demo {
+	public static void main(String[] args) {
+		//Cat cat = new Cat("猫", 1, "黑白相间", '公');
+		Dog dog=new Dog();
+		dog =new Dog("狗", 2, "白色", "萨摩耶");
+		//dog = new Dog("狗", 2, "白色", "萨摩耶");
+		//cat.show();
+		dog.show();
+	}
+}

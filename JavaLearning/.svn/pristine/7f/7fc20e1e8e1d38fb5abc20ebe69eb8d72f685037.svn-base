@@ -1,0 +1,33 @@
+/**
+ * @author jgybzx
+ * @data 2019-7-31 ÏÂÎç4:57:06
+ * @version °æ±¾ºÅ
+ * @TODO ÃèÊö
+ */
+package demo.day6.chouxianglei;
+
+/**
+ * @author Jgybz
+ *
+ */
+public class SmartPhone extends Phone {
+
+	/* (non-Javadoc)
+	 * @see demo.day6.chouxianglei.Phone#call()
+	 */
+	@Override
+	public void call() {
+		// TODO Auto-generated method stub
+		System.out.println("ÆÁÄ»ÊäÈëºÅÂë");
+	}
+
+	/* (non-Javadoc)
+	 * @see demo.day6.chouxianglei.Phone#message()
+	 */
+	@Override
+	public void message() {
+		// TODO Auto-generated method stub
+		System.out.println("ÆÁÄ»ÊäÈëÎÄ×Ö");
+	}
+
+}

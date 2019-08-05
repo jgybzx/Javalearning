@@ -1,0 +1,30 @@
+/**
+ * @author jgybzx
+ * @data 2019-7-30 上午11:18:58
+ * @version 版本号
+ * @TODO 描述
+ */
+package demo.day5.Extends;
+
+/**
+ * @author Jgybz
+ * 
+ */
+public class Cat extends Animals {
+	public Cat() {
+	}
+
+	char sex;
+
+	public Cat(String name, int age, String color, char sex) {
+		this.name = name;
+		this.age = age;
+		this.color = color;
+		this.sex = sex;
+	}
+
+	public void show() {
+		System.out.println("猫\n" + "名字:" + name + "\t年龄:" + age + "\t颜色:"
+				+ color + "\t性别:" + sex);
+	}
+}
