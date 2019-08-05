@@ -15,7 +15,7 @@ public class Demo {
 		 *  输出结果:demo.day7.object.Person@4f0ab3f2
 		 *  					      完整类名+ @ +十六进制符
 		 *  
-		 *  github修改提交测试
+		 *  github修改提交测试assdsd
 		 */
 	}
 }
