@@ -7,9 +7,12 @@
 package demo.day7.object;
 
 public class Person {
-	String name;
-	int age;
-	char sex;
+	public Person() {
+	}
+
+	private String name;
+	private int age;
+	private char sex;
 
 	public Person(String name, int age, char sex) {
 		super();
@@ -40,6 +43,12 @@ public class Person {
 		result = prime * result + age;
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		result = prime * result + sex;
+		return result;
+	}
+
+	public int hash() {
+		int result = 1;
+		result = sex;
 		return result;
 	}
 

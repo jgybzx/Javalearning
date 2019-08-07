@@ -12,6 +12,12 @@ public class Demo {
 		// 直接打印查看输出
 		System.out.println(person);
 		System.out.println(person.toString());
+		System.out.println(person.hashCode());
+		System.out.println(person.hash());
+		int c=0;
+		char c1='男';
+		c=c1;
+		System.out.println(c);
 		/**
 		 * 输出结果:demo.day7.object.Person@4f0ab3f2 完整类名+ @ +哈希码（十六进制形式） 
 		 * 分析:
@@ -33,7 +39,12 @@ public class Demo {
 		 */
 		// 如果利用toString()返回的不是 完整类名 + @ + 哈希码的十六进制形式，那就说明此类重写了这个方法。
 		String text = "asas";
+		
 		System.out.println(text);// 输出:asas，说明String重写了toString.
 		System.out.println(text.hashCode());
+		Integer nInteger=1;
+		System.out.println(nInteger);
+		System.out.println(nInteger.toString());
+		System.out.println(nInteger.hashCode());
 	}
 }
